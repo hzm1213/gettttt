@@ -1,3 +1,5 @@
+anytls://6f05c238-122f-42ba-8de9-8285236287f8@159.54.165.141:8891?sni=159.54.165.141&udp=true&tfo=true#🇺🇸美国 Anytls
+anytls://6f05c238-122f-42ba-8de9-8285236287f8@159.54.165.141:8891?sni=159.54.165.141&udp=true&tfo=true&alpn=h2,http/1.1&mux=16&padding=true#🇺🇸美国%20Anytls-1
 hysteria2://119bedb3-7bf7-4834-8eb0-451b0e58bc1a@85.121.51.24:28675?sni=85.121.51.24&alpn=h3&insecure=1#日本 东京 Urban Network Solutions-原h3
 hysteria2://119bedb3-7bf7-4834-8eb0-451b0e58bc1a@85.121.51.24:28675?sni=dash.cloudflare.com&alpn=h3&insecure=1#日本 东京 Urban Network Solutions-匿h3-cloudflare
 hysteria2://119bedb3-7bf7-4834-8eb0-451b0e58bc1a@85.121.51.24:28675?sni=www.apple.com&alpn=h3&insecure=1#日本 东京 Urban Network Solutions-匿h3-apple
@@ -61,6 +63,7 @@ hysteria2://zhangyang@130.61.50.75:6443?sni=dash.cloudflare.com&alpn=h3&insecure
 hysteria2://zhangyang@130.61.50.75:6443?sni=www.apple.com&alpn=h3&insecure=1#德国 黑森州 法兰克福 — 甲骨文云 OracleAMD-匿h3-apple
 hysteria2://zhangyang@130.61.50.75:6443?sni=www.bing.com&alpn=h3&insecure=1#德国 黑森州 法兰克福 — 甲骨文云 OracleAMD-匿h3-bing
 hysteria2://zhangyang@130.61.50.75:6443?sni=www.microsoft.com&alpn=h3&insecure=1#德国 黑森州 法兰克福 — 甲骨文云 OracleAMD-匿h3-microsoft
+hysteria://62.210.10.186:40099?upmbps=100&downmbps=100&auth=dongtaiwang.com&obfsParam=&insecure=1&peer=apple.com&alpn=h3&recv_window=276824064&recv_window_conn=69206016&mport=
 ss://YWVzLTEyOC1nY206MDgwOGE1OWEtNDQyNy00MzE4LWJiYzUtZTk2YWZmM2RmNzQ5QGhrZzI0LTIwMjUwNjIxMTg1ODU4YmI4Mzk0LnNpbmdkbnMuY29tOjIzMzQx#%E6%84%BF%E6%82%A8%E5%92%8C%E5%AE%B6%E4%BA%BA2026%E9%A9%AC%E5%88%B0%E6%88%90%E5%8A%9F
 ss://YWVzLTEyOC1nY206MTVjOTkyYTEtYjIzYy00YTRlLWEzZDAtODM5MTJkMTk3YmFkQGhrZzI0LTIwMjUwNjIxMTg1ODU4YmI4Mzk0LnNpbmdkbnMuY29tOjIzMzQx#%E6%9B%B4%E6%96%B0%E6%88%90%E5%8A%9F%E5%90%8E%E5%86%8D%E9%80%89%E6%8B%A9%E7%BA%BF%E8%B7%AF%E8%BF%9E%E6%8E%A5
 ss://YWVzLTEyOC1nY206MjMxMjQ0MjEtODMxNy00ZjhiLTkzNTItOTNhM2VkNGQ5NjEzQGhrZzI0LTIwMjUwNjIxMTg1ODU4YmI4Mzk0LnNpbmdkbnMuY29tOjIzMzQx#%E4%B8%A5%E6%A0%BC%E9%81%B5%E5%AE%88%E5%BD%93%E5%9C%B0%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84
