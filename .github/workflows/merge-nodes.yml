@@ -1,0 +1,47 @@
+name: Merge Nodes
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 每 6 小时
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch and merge sources
+        run: |
+          rm -f merged_raw.txt
+          touch merged_raw.txt
+
+          while read -r url; do
+            [[ -z "$url" ]] && continue
+            echo "Fetching: $url"
+            curl -fsSL "$url" >> merged_raw.txt || true
+            echo >> merged_raw.txt
+          done < sources.txt
+
+      - name: Extract node links
+        run: |
+          grep -E '^(vmess|vless|trojan|ss|hysteria2|tuic)://' merged_raw.txt \
+          | sed '/^$/d' \
+          | sort -u > nodes.txt
+
+      - name: Generate base64 file
+        run: |
+          base64 -w 0 nodes.txt > nodes_base64.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add nodes.txt nodes_base64.txt
+          git commit -m "Update merged nodes" || exit 0
+          git push
