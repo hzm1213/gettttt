@@ -31,7 +31,7 @@ jobs:
             echo "Fetching $url"
             curl -fsS "$url" >> merged_raw.txt || echo "Failed to fetch: $url"
             echo "" >> merged_raw.txt
-          done < source.txt
+          done < sources.txt
 
           # 去重原始节点，顺序保留
           awk '!seen[$0]++' merged_raw.txt > merged_raw_uniq.txt
