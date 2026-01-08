@@ -57,7 +57,7 @@ jobs:
       # 5. 生成 base64 文件
       - name: Generate base64 file
         run: |
-          base64 nodes.txt > nodes_base64.txt
+          base64 -w 0 nodes.txt > nodes_base64.txt
 
       # 6. 节点统计（直接合并 hysteria / hy 和 hysteria2 / hy2）
       - name: Count nodes by type
