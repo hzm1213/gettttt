@@ -61,18 +61,19 @@ jobs:
 
       # 6. 节点统计
       - name: Count nodes by type
-        id: node_count
         run: |
           PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 tuic anytls wireguard ssh)
-          echo "Total=0" >> node_stats.txt
+          
+          > node_stats.txt
           total=0
+          
           for p in "${PROTOS[@]}"; do
-            count=$(grep -c "^${p}://" nodes.txt || echo 0)
+            count=$(grep -c "^${p}://" nodes.txt || true)
             echo "${p}=${count}" >> node_stats.txt
             total=$((total + count))
           done
-          echo "Total=$total" >> node_stats.txt
-          echo "::set-output name=total::$total"
+          
+          echo "Total=${total}" >> node_stats.txt
 
       # 7. 发送统计到 Telegram
       - name: Notify Telegram
