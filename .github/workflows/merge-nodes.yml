@@ -30,8 +30,10 @@ jobs:
 
       - name: Extract node links
         run: |
-          grep -E '^(vmess|vless|trojan|ss|hysteria|hy|hysteria2|hy2|tuic|anytls)://' merged_raw.txt \
-          | sed '/^$/d' \
+          sed 's/\r//' merged_raw.txt \
+          | grep -Eoi '(vm|vless|trojan|ssr?|hysteria2?|hy2?|tuic|anytls|wireguard|ssh|https?)://[^[:space:]]+' \
+          | sed 's/^[^a-zA-Z]*//' \
+          | sed '/^http[s]*:\/\/[^@]*$/d' \
           | sort -u > nodes.txt
 
       - name: Generate base64 file
