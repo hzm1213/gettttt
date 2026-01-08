@@ -45,7 +45,7 @@ jobs:
           | sed '/^#.*$/d' \
           | awk '!seen[$0]++' > nodes_temp.txt
 
-          PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 tuic anytls wireguard ssh)
+          PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 hysteria hy tuic anytls wireguard ssh)
 
           > nodes.txt
           for p in "${PROTOS[@]}"; do
