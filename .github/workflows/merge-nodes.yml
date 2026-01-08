@@ -31,7 +31,7 @@ jobs:
       - name: Extract node links
         run: |
           sed 's/\r//' merged_raw.txt \
-          | grep -Eoi '(vm|vless|trojan|ssr?|hysteria2?|hy2?|tuic|anytls|wireguard|ssh|https?)://[^[:space:]]+' \
+          | grep -Eoi '(vmess|vless|trojan|ssr|ss|hysteria2?|hy2?|tuic|anytls|wireguard|ssh|https?)://[^[:space:]]+' \
           | sed 's/^[^a-zA-Z]*//' \
           | sed 's/[[:space:]]*$//' \
           | sed '/^http[s]*:\/\/[^@]*$/d' \
