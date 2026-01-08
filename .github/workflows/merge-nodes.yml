@@ -1,10 +1,8 @@
 name: Fetch & Extract Nodes
 
 on:
-  # 每 6 小时自动触发
   schedule:
-    - cron: '0 */6 * * *'
-  # 保留手动触发
+    - cron: '0 */6 * * *'  # 每 6 小时
   workflow_dispatch:
 
 jobs:
@@ -15,30 +13,25 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # 2. 安装 curl（必要工具）
+      # 2. 安装 curl
       - name: Install utils
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl
+          sudo apt-get install -y curl jq
 
-      # 3. 获取订阅并合并
-      - name: Fetch subscription links
+      # 3. 抓取订阅
+      - name: Fetch subscription links from source.txt
         run: |
           mkdir -p tmp
           > merged_raw.txt
-          
-          # 在这里填写你的订阅链接，可以随时增减
-          SUBS=(
-            "https://example.com/sub1.txt"
-            "https://example.com/sub2.txt"
-            "https://example.com/sub3.txt"
-          )
-          
-          for url in "${SUBS[@]}"; do
+
+          while IFS= read -r url; do
+            [[ -z "$url" ]] && continue
+            [[ "$url" =~ ^# ]] && continue
             echo "Fetching $url"
-            curl -s "$url" >> merged_raw.txt
+            curl -fsS "$url" >> merged_raw.txt || echo "Failed to fetch: $url"
             echo "" >> merged_raw.txt
-          done
+          done < source.txt
 
           # 去重原始节点，顺序保留
           awk '!seen[$0]++' merged_raw.txt > merged_raw_uniq.txt
@@ -47,18 +40,16 @@ jobs:
       # 4. 提取节点并按协议分类排序
       - name: Extract node links by type
         run: |
-          # 去掉空行和注释
           sed 's/\r//g' merged_raw.txt \
           | sed '/^[[:space:]]*$/d' \
           | sed '/^#.*$/d' \
           | awk '!seen[$0]++' > nodes_temp.txt
 
-          # 协议顺序
           PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 tuic anytls wireguard ssh)
 
           > nodes.txt
           for p in "${PROTOS[@]}"; do
-            grep -E "^${p}://" nodes_temp.txt >> nodes.txt
+            grep -E "^${p}://" nodes_temp.txt >> nodes.txt || true
           done
 
           rm -f nodes_temp.txt
@@ -68,11 +59,43 @@ jobs:
         run: |
           base64 nodes.txt > nodes_base64.txt
 
-      # 6. 推送到仓库
+      # 6. 节点统计
+      - name: Count nodes by type
+        id: node_count
+        run: |
+          PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 tuic anytls wireguard ssh)
+          echo "Total=0" >> node_stats.txt
+          total=0
+          for p in "${PROTOS[@]}"; do
+            count=$(grep -c "^${p}://" nodes.txt || echo 0)
+            echo "${p}=${count}" >> node_stats.txt
+            total=$((total + count))
+          done
+          echo "Total=$total" >> node_stats.txt
+          echo "::set-output name=total::$total"
+
+      # 7. 发送统计到 Telegram
+      - name: Notify Telegram
+        if: success()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          message="Node update:\n"
+          while IFS= read -r line; do
+            message+="$line\n"
+          done < node_stats.txt
+
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="Markdown" \
+            -d text="$message"
+
+      # 8. 推送更新到仓库
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add nodes.txt nodes_base64.txt merged_raw.txt
+          git add nodes.txt nodes_base64.txt merged_raw.txt node_stats.txt
           git commit -m "Update nodes: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
