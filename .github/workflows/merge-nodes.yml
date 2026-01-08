@@ -1,47 +1,78 @@
-name: Merge Nodes
+name: Fetch & Extract Nodes
 
 on:
+  # 每 6 小时自动触发
   schedule:
-    - cron: "0 */6 * * *"   # 每 6 小时
+    - cron: '0 */6 * * *'
+  # 保留手动触发
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  merge:
+  fetch_nodes:
     runs-on: ubuntu-latest
-
     steps:
+      # 1. 检出仓库
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Fetch and merge sources
+      # 2. 安装 curl（必要工具）
+      - name: Install utils
         run: |
-          rm -f merged_raw.txt
-          touch merged_raw.txt
+          sudo apt-get update
+          sudo apt-get install -y curl
 
-          while read -r url; do
-            [[ -z "$url" ]] && continue
-            echo "Fetching: $url"
-            curl -fsSL "$url" >> merged_raw.txt || true
-            echo >> merged_raw.txt
-          done < sources.txt
-
-      - name: Extract node links
+      # 3. 获取订阅并合并
+      - name: Fetch subscription links
         run: |
-          grep -E '^(vmess|vless|trojan|ssr|ss|hysteria2|hysteria|hy2|hy|tuic|anytls)://' merged_raw.txt \
-          | sed '/^$/d' \
-          | sort -u > nodes.txt
+          mkdir -p tmp
+          > merged_raw.txt
+          
+          # 在这里填写你的订阅链接，可以随时增减
+          SUBS=(
+            "https://example.com/sub1.txt"
+            "https://example.com/sub2.txt"
+            "https://example.com/sub3.txt"
+          )
+          
+          for url in "${SUBS[@]}"; do
+            echo "Fetching $url"
+            curl -s "$url" >> merged_raw.txt
+            echo "" >> merged_raw.txt
+          done
 
+          # 去重原始节点，顺序保留
+          awk '!seen[$0]++' merged_raw.txt > merged_raw_uniq.txt
+          mv merged_raw_uniq.txt merged_raw.txt
+
+      # 4. 提取节点并按协议分类排序
+      - name: Extract node links by type
+        run: |
+          # 去掉空行和注释
+          sed 's/\r//g' merged_raw.txt \
+          | sed '/^[[:space:]]*$/d' \
+          | sed '/^#.*$/d' \
+          | awk '!seen[$0]++' > nodes_temp.txt
+
+          # 协议顺序
+          PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 tuic anytls wireguard ssh)
+
+          > nodes.txt
+          for p in "${PROTOS[@]}"; do
+            grep -E "^${p}://" nodes_temp.txt >> nodes.txt
+          done
+
+          rm -f nodes_temp.txt
+
+      # 5. 生成 base64 文件
       - name: Generate base64 file
         run: |
-          base64 -w 0 nodes.txt > nodes_base64.txt
+          base64 nodes.txt > nodes_base64.txt
 
-      - name: Commit and push
+      # 6. 推送到仓库
+      - name: Commit and Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add nodes.txt nodes_base64.txt
-          git commit -m "Update merged nodes" || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add nodes.txt nodes_base64.txt merged_raw.txt
+          git commit -m "Update nodes: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
