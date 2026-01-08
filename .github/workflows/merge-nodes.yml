@@ -30,7 +30,7 @@ jobs:
 
       - name: Extract node links
         run: |
-          grep -E '^(vmess|vless|trojan|ss|hysteria|hysteria2|tuic|anytls)://' merged_raw.txt \
+          grep -E '^(vmess|vless|trojan|ss|hysteria|hy|hysteria2|hy2|tuic|anytls)://' merged_raw.txt \
           | sed '/^$/d' \
           | sort -u > nodes.txt
 
