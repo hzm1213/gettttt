@@ -45,7 +45,7 @@ jobs:
           | sed '/^#.*$/d' \
           | awk '!seen[$0]++' > nodes_temp.txt
 
-          PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 hysteria hy tuic anytls wireguard ssh)
+          PROTOS=(vmess vless trojan ssr ss hysteria hy hysteria2 hy2 tuic anytls wireguard ssh)
 
           > nodes.txt
           for p in "${PROTOS[@]}"; do
@@ -59,15 +59,48 @@ jobs:
         run: |
           base64 nodes.txt > nodes_base64.txt
 
-      # 6. 节点统计
+      # 6. 节点统计（直接合并 hysteria / hy 和 hysteria2 / hy2）
       - name: Count nodes by type
         run: |
-          PROTOS=(vmess vless trojan ssr ss hysteria2 hy2 tuic anytls wireguard ssh)
           > node_stats.txt
           total=0
-          for p in "${PROTOS[@]}"; do
-            count=$(grep -c "^${p}://" nodes.txt || true)
-            echo "${p}=${count}" >> node_stats.txt
+          # 定义协议统计顺序
+          PROTOS=(vmess vless trojan ssr ss hysteria hy hysteria2 hy2 tuic anytls wireguard ssh)
+          # 初始化合并变量
+          hysteria_count=0
+          hysteria2_count=0
+          # 遍历 nodes.txt 统计
+          while IFS= read -r line; do
+           # 跳过空行
+           [ -z "$line" ] && continue
+           case "$line" in
+            hysteria://*|hy://*)
+             hysteria_count=$((hysteria_count + 1))
+             ;;
+            hysteria2://*|hy2://*)
+             hysteria2_count=$((hysteria2_count + 1))
+             ;;
+            vmess://*|vless://*|trojan://*|ssr://*|ss://*|tuic://*|anytls://*|wireguard://*|ssh://*)
+             proto=$(echo "$line" | grep -oE '^[^:]+' )
+             eval "$proto=\$(( ${proto} + 1 ))"
+             ;;
+           esac
+          done < nodes.txt
+          # 输出统计到 node_stats.txt
+          for proto in "${PROTOS[@]}"; do
+            case "$proto" in
+             hysteria)
+              count=$hysteria_count
+              ;;
+             hysteria2)
+              count=$hysteria2_count
+              ;;
+             *)
+              # 如果 eval 的变量不存在就置为 0
+              count=$(eval "echo \${$proto:-0}")
+              ;;
+            esac
+            echo "${proto}=${count}" >> node_stats.txt
             total=$((total + count))
           done
           echo "Total=${total}" >> node_stats.txt
