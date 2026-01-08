@@ -33,8 +33,9 @@ jobs:
           sed 's/\r//' merged_raw.txt \
           | grep -Eoi '(vm|vless|trojan|ssr?|hysteria2?|hy2?|tuic|anytls|wireguard|ssh|https?)://[^[:space:]]+' \
           | sed 's/^[^a-zA-Z]*//' \
+          | sed 's/[[:space:]]*$//' \
           | sed '/^http[s]*:\/\/[^@]*$/d' \
-          | sort -u > nodes.txt
+          | sort -fu > nodes.txt
 
       - name: Generate base64 file
         run: |
