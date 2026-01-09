@@ -112,6 +112,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          set -e
           # 读取 Total
           total=$(grep '^Total=' node_stats.txt | cut -d= -f2)
           text="本次更新共 ${total} 个节点，其中"
@@ -133,9 +134,10 @@ jobs:
           fi
           echo "Telegram message:"
           echo "$text"
-          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+          resp=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
             -d chat_id="${TELEGRAM_CHAT_ID}" \
             -d text="$message"
+          echo "Telegram response: $resp"
 
       # 8. 推送更新到仓库
       - name: Commit and Push
