@@ -118,14 +118,11 @@ jobs:
           text="本次更新共 ${total} 个节点，其中"
           has_item=false
           while IFS='=' read -r key value; do
-            # 跳过 Total
             [ "$key" = "Total" ] && continue
-            # 跳过 0
             [ "$value" = "0" ] && continue
             text+="${key}：${value} 个，"
             has_item=true
           done < node_stats.txt
-          # 如果所有类型都是 0（极端情况）
           if [ "$has_item" = false ]; then
             text="本次更新未获取到任何有效节点"
           else
@@ -136,7 +133,7 @@ jobs:
           echo "$text"
           resp=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
             -d chat_id="${TELEGRAM_CHAT_ID}" \
-            -d text="$message"
+            -d text="$text")
           echo "Telegram response: $resp"
 
       # 8. 推送更新到仓库
