@@ -1,4 +1,4 @@
 https://raw.githubusercontent.com/jgchengxin/ssr_subscrible_tool/refs/heads/master/node.txt
 https://raw.githubusercontent.com/diannao0992322/ssr_subscrible_tool/refs/heads/master/node.txt
-https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/master/node.txt
+https://raw.githubusercontent.com/jianguogongyong/ceshi_subscrible_tool/refs/heads/master/node.txt
 https://shz.al/~WangCai
