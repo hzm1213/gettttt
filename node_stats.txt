@@ -1,5 +1,5 @@
 vmess=0
-vless=55
+vless=5
 trojan=0
 ssr=0
 ss=80
@@ -11,4 +11,4 @@ tuic=0
 anytls=0
 wireguard=0
 ssh=0
-Total=135
+Total=85
