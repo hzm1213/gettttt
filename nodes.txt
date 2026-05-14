@@ -72,5 +72,6 @@ hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@202.146.222.41:443/?insecure=1&sni=https%3A%2F%2F
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@202.146.222.89:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%AD%F0%9F%87%B0HK_%40WangCai_8
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@202.146.222.93:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%AD%F0%9F%87%B0HK_%40WangCai_8
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@18.181.199.186:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
-hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@18.182.63.55:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
+hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.234.119.27:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%AE%F0%9F%87%B3IN_%40WangCai_8
+hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.234.35.16:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%AE%F0%9F%87%B3IN_%40WangCai_8
 hy2://af6904c1-4349-4448-8e99-0024824a0c33@131.186.17.117:10000/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%B0%F0%9F%87%B7KR_%40WangCai_8
