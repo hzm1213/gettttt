@@ -8,13 +8,11 @@ vless://394f6981-a782-4779-9a85-e6cf22935d93@152.233.28.199:8443/?type=tcp&encry
 vless://394f6981-a782-4779-9a85-e6cf22935d93@152.233.28.200:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#🇬🇧GB_@WangCai_8
 vless://394f6981-a782-4779-9a85-e6cf22935d93@152.233.28.201:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#🇬🇧GB_@WangCai_8
 vless://394f6981-a782-4779-9a85-e6cf22935d93@152.233.28.202:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#🇬🇧GB_@WangCai_8
-vless://394f6981-a782-4779-9a85-e6cf22935d93@89.187.174.121:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B3%F0%9F%87%B1NL_%40WangCai_8
 vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.239.82:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B3%F0%9F%87%B1NL_%40WangCai_8
 vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.239.83:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B3%F0%9F%87%B1NL_%40WangCai_8
 vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.239.84:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B3%F0%9F%87%B1NL_%40WangCai_8
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@89.222.123.77:8443/?type=tcp&encryption=none&flow=&security=tls&sni=cdn9-33.vk-cdnvideo.com&packetEncoding=xudp#%F0%9F%87%A9%F0%9F%87%AADE_%40WangCai_8
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@89.222.123.84:8443/?type=tcp&encryption=none&flow=&security=tls&sni=cdn9-33.vk-cdnvideo.com&packetEncoding=xudp#%F0%9F%87%A9%F0%9F%87%AADE_%40WangCai_8
-vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@89.222.123.86:8443/?type=tcp&encryption=none&flow=&security=tls&sni=cdn9-33.vk-cdnvideo.com&packetEncoding=xudp#%F0%9F%87%A9%F0%9F%87%AADE_%40WangCai_8
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@89.222.123.87:8443/?type=tcp&encryption=none&flow=&security=tls&sni=cdn9-33.vk-cdnvideo.com&packetEncoding=xudp#%F0%9F%87%A9%F0%9F%87%AADE_%40WangCai_8
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@89.222.123.88:8443/?type=tcp&encryption=none&flow=&security=tls&sni=cdn9-33.vk-cdnvideo.com&packetEncoding=xudp#%F0%9F%87%A9%F0%9F%87%AADE_%40WangCai_8
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@89.222.123.89:8443/?type=tcp&encryption=none&flow=&security=tls&sni=cdn9-33.vk-cdnvideo.com&packetEncoding=xudp#%F0%9F%87%A9%F0%9F%87%AADE_%40WangCai_8
