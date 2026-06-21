@@ -14,7 +14,8 @@ vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.96:8443/?type=tcp&encry
 vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.249.221:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B8%F0%9F%87%AASE_%40WangCai_8
 vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.15:8443/?type=tcp&encryption=none&flow=&security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B8%F0%9F%87%AASE_%40WangCai_8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.106:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29cc6b132%3A143268#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.109:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29502d36f%3A25488#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.107:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29cc6b132%3A143268#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.109:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29cc6b132%3A143268#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.108:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29cc6b132%3A143268#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
 ss://YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMkA0Ni4yOS4xNjMuMzA6MzIzMjQ#NewYork%20PAC
 ss://YWVzLTI1Ni1nY206aHhveFZZbEdYSkRxQDE5NC44Ny4xMC4xNTU6ODM4OA#Singapore
