@@ -34,6 +34,12 @@ vless://b991b390-dd0f-4061-9150-bee0cb467bce@50.62.172.240:443/?type=ws&encrypti
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.150.109.89:59490#KR
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.106:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29cc6b132%3A143268#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.108:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29cc6b132%3A143268#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@3.112.240.74:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%295337fad%3A11915#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@43.206.229.103:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%295337fad%3A11915#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@18.181.146.122:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%295337fad%3A11915#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@3.0.19.206:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%295337fad%3A11915#%F0%9F%87%B8%F0%9F%87%ACSG_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@13.212.60.176:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%295337fad%3A11915#%F0%9F%87%B8%F0%9F%87%ACSG_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@13.212.189.76:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%295337fad%3A11915#%F0%9F%87%B8%F0%9F%87%ACSG_%40WangCai_8
 ss://YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMkA0Ni4yOS4xNjMuMzA6MzIzMjQ#NewYork%20PAC
 ss://YWVzLTI1Ni1nY206aHhveFZZbEdYSkRxQDE5NC44Ny4xMC4xNTU6ODM4OA#Singapore
 ss://YWVzLTI1Ni1nY206ZzVibEdMMHhDdlJSQDE4NS4xNDEuMjE5LjE3MDo4Mzg4#Japan
