@@ -4,7 +4,7 @@ hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@202.146.222.29:443/?insecure=1&sni=https%3A%2F%2F
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.191.165.99:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#🇺🇸US_@WangCai_8
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.169.31.20:443/?insecure=1&sni=https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%B8%F0%9F%87%ACSG_%40WangCai_8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.109:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29502d36f%3A25488#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.106:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29953e517%3A89692#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.106:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%29cc6b132:143268#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
 ss://YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMkA0Ni4yOS4xNjMuMzA6MzAxMjk#NewYork%20PAC
 ss://YWVzLTI1Ni1nY206bW4zemRDTEhaSnJ4QDE5Mi4xMjQuMTc2LjI0OjgzODg#Singapore
 ss://YWVzLTI1Ni1nY206Skk0bWhiZEQ3eW9WQDE4NS4xNDEuMjE5LjI0MTo4Mzg4#Japan
