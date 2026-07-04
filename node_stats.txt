@@ -1,6 +1,6 @@
 vmess=0
-vless=0
-trojan=1
+vless=1
+trojan=0
 ssr=0
 ss=14
 hysteria=0
