@@ -8,7 +8,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@
 vless://Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2@120.55.183.176:443/?type=ws&encryption=none&flow=&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi&ed=2560&eh=Sec-WebSocket-Protocol&security=tls&sni=support.zoom.us.yxls.eu.cc#🇺🇸US_@WangCai_8
 vless://Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2@8.136.23.76:443/?type=ws&encryption=none&flow=&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi&ed=2560&eh=Sec-WebSocket-Protocol&security=tls&sni=support.zoom.us.yxls.eu.cc#🇺🇸US_@WangCai_8
 ss://YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMkA0Ni4yOS4xNjMuMTc1OjUwMTI5#NewYork%20PAC
-ss://YWVzLTI1Ni1nY206VWkzUzVMVFF0RUZEQDE5Mi4xMjQuMTc2LjczOjgzODg#Singapore
+ss://YWVzLTI1Ni1nY206Yk9pTTlzcVhOb1pUQDE5Mi4xMjQuMTc2LjEwOTo4Mzg4#Singapore
 ss://YWVzLTI1Ni1nY206M3JnWFVLSlpyd3RIQDE1MC4yNTEuMTU4LjMwOjgzODg#Japan
 ss://YWVzLTI1Ni1nY206TTVzdHEzRUVtYXNCQDIxMi4xOTIuMTUuMjE2OjgzODg#HongKong
 ss://YWVzLTI1Ni1nY206ZmJhZjMzYmNmZmU1M2NmOUAxNzYuMzIuMzkuMjE4OjYwMTIz#France
