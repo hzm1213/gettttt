@@ -4,12 +4,6 @@ hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.183.133.140:443/?insecure=1&sni=https%3A%2F%2F
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@88.210.36.106:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%297836d8f7%3A130689#%F0%9F%87%BA%F0%9F%87%B8US_%40WangCai_8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.156:8080#%F0%9F%87%B3%F0%9F%87%B1NL_@WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@43.207.74.180:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%296db9d46%3A44797#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@52.199.164.162:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%296db9d46%3A44797#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@3.112.199.47:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%296db9d46%3A44797#%F0%9F%87%AF%F0%9F%87%B5JP_%40WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@18.139.163.18:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%296db9d46%3A44797#%F0%9F%87%B8%F0%9F%87%ACSG_%40WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@18.143.63.164:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%296db9d46%3A44797#%F0%9F%87%B8%F0%9F%87%ACSG_%40WangCai_8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@18.139.160.226:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%296db9d46%3A44797#%F0%9F%87%B8%F0%9F%87%ACSG_%40WangCai_8
 ss://YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMkAxODUuMjIuMTU0LjI1NDo2MDE4#NewYork%20PAC
 ss://YWVzLTI1Ni1nY206SWV2Tm9HTlFKVjZMQDE5NC44Ny4xMC4zNzo4Mzg4#Singapore
 ss://YWVzLTI1Ni1nY206TVZxVXBXUTZ2S1loQDE1MC4yNTEuMTU4LjEwMjo4Mzg4#Japan
