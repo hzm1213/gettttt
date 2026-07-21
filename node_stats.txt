@@ -1,6 +1,6 @@
 vmess=1
-vless=10
-trojan=0
+vless=22
+trojan=11
 ssr=0
 ss=15
 hysteria=0
@@ -11,4 +11,4 @@ tuic=0
 anytls=0
 wireguard=0
 ssh=0
-Total=28
+Total=51
