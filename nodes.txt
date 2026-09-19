@@ -10,11 +10,9 @@ ss://YWVzLTI1Ni1nY206OGFkOWQ3MmE1NTcxZGY4NkAxOTUuNTguNDguMTM3OjEwOTAw#Italy
 ss://YWVzLTI1Ni1nY206ODk1YjRiNzk2YTM1NzU3MEAxOTUuMTMzLjUuMTAyOjEwOTAw#British
 ss://YWVzLTI1Ni1nY206NzI1NTMzMjBhZTZiY2M4ZkAxMDMuMTM2LjE1MC4xMTk6MzAyMjI#HongKong
 ss://YWVzLTI1Ni1nY206YmRiMzEzYWRmNzRjMmVkZUA0Ni4xNy40MC4yMzQ6MTAzMDE#Russia
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206SnZNOE56b3gxUEpLbHZRU0FON2lIZz09@35.159.107.223:12805?#%F0%9F%87%A9%F0%9F%87%AA%E5%BE%B7%E5%9B%BD01
-hy2://SLJXHNgZiLjHitFie6EFHg%3D%3D@151.115.67.175:13060?security=tls&obfs=salamander&obfs-password=lZTLtRlBXEl1&sni=v.wqxyxurkt.xyz#%F0%9F%87%B5%F0%9F%87%B1%E6%B3%A2%E5%85%B001
-hy2://5Kscwge1hNljDug3Pw8xbA%3D%3D@151.115.86.153:12581?security=tls&obfs=salamander&obfs-password=sRaXDDrYbln3&sni=v.wqxyxurkt.xyz#%F0%9F%87%B5%F0%9F%87%B1%E6%B3%A2%E5%85%B002
-hy2://S%2FwZFkikD9qlW78BtZsjeA%3D%3D@163.172.15.174:12576?security=tls&obfs=salamander&obfs-password=a7OMDw0-12xs&sni=3.wscnmfsg.xyz#%F0%9F%87%AB%F0%9F%87%B7%E6%B3%95%E5%9B%BD01
-hy2://iQLX5mBQ8gKxe%2Bto9%2Fvmng%3D%3D@163.172.163.115:12628?security=tls&obfs=salamander&obfs-password=Zsuwu0Sfq5IC&sni=1.wscnmfsg.xyz#%F0%9F%87%AB%F0%9F%87%B7%E6%B3%95%E5%9B%BD02
-hy2://USCx3FyhAJLJ1vytxt97JQ%3D%3D@51.158.127.207:12498?security=tls&obfs=salamander&obfs-password=BHmO7kayxVnO&sni=3.wscnmfsg.xyz#%F0%9F%87%AB%F0%9F%87%B7%E6%B3%95%E5%9B%BD03
-hy2://mVurQtg1cBswYji7ROUIWA%3D%3D@51.158.67.226:12411?security=tls&obfs=salamander&obfs-password=ZquGAAoN3SJN&sni=1.wscnmfsg.xyz#%F0%9F%87%AB%F0%9F%87%B7%E6%B3%95%E5%9B%BD04
-hy2://H1vOtn2vgmn6xmHhdskC4A%3D%3D@52.58.121.140:12477?security=tls&obfs=salamander&obfs-password=hxFCntxaIKZr&sni=3.wscnmfsg.xyz#%F0%9F%87%A9%F0%9F%87%AA%E5%BE%B7%E5%9B%BD02
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206d2hsMU8zcEdLMVU5ZHB5cHVIZmtTdz09@3.135.249.250:12133?#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD02
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206dFB1aTcyOGNCUXRnWmpDd1BNUmxFZz09@35.159.107.223:12278?#%F0%9F%87%A9%F0%9F%87%AA%E5%BE%B7%E5%9B%BD01
+hy2://yfBr3pp8GaFUEzy761j9Yw%3D%3D@16.59.134.248:12122?security=tls&obfs=salamander&obfs-password=1kfUxOXaMzs0&sni=2.wscnmfsg.xyz#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD01
+hy2://spoyBDxHibDwq90CWxmVrw%3D%3D@3.17.75.253:12989?security=tls&obfs=salamander&obfs-password=S-DtJvzheqhE&sni=2.wscnmfsg.xyz#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD03
+hy2://HNyJlyZ%2FNPbOjOHB0nxMOg%3D%3D@52.58.121.140:12094?security=tls&obfs=salamander&obfs-password=f6Koqf0GgFSM&sni=3.wscnmfsg.xyz#%F0%9F%87%A9%F0%9F%87%AA%E5%BE%B7%E5%9B%BD02
+hy2://FLq2GGEFC7B9Eyg7SCcEnQ%3D%3D@54.173.137.37:12874?security=tls&obfs=salamander&obfs-password=tj0UK0Bze435&sni=2.wscnmfsg.xyz#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD04
